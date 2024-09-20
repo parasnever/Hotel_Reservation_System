@@ -26,71 +26,82 @@ Partial Class MainForm
         LabelMReservations = New Label()
         LabelMRooms = New Label()
         LabelMClients = New Label()
-        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.OrangeRed
-        Panel1.Controls.Add(LabelMReservations)
-        Panel1.Controls.Add(LabelMRooms)
-        Panel1.Controls.Add(LabelMClients)
-        Panel1.Location = New Point(-2, 14)
+        Panel1.BackColor = Color.Transparent
+        Panel1.ForeColor = Color.Black
+        Panel1.Location = New Point(1, 406)
         Panel1.Margin = New Padding(6, 5, 6, 5)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(414, 436)
+        Panel1.Size = New Size(416, 367)
         Panel1.TabIndex = 0
         ' 
         ' LabelMReservations
         ' 
         LabelMReservations.AutoSize = True
+        LabelMReservations.BackColor = Color.Teal
         LabelMReservations.Cursor = Cursors.Hand
-        LabelMReservations.Location = New Point(79, 296)
+        LabelMReservations.Font = New Font("Microsoft Sans Serif", 19.8000011F, FontStyle.Bold)
+        LabelMReservations.ForeColor = Color.White
+        LabelMReservations.Location = New Point(24, 196)
         LabelMReservations.Margin = New Padding(6, 0, 6, 0)
         LabelMReservations.Name = "LabelMReservations"
-        LabelMReservations.Size = New Size(290, 32)
+        LabelMReservations.Size = New Size(367, 39)
         LabelMReservations.TabIndex = 2
         LabelMReservations.Text = "Manage Reservations"
         ' 
         ' LabelMRooms
         ' 
         LabelMRooms.AutoSize = True
+        LabelMRooms.BackColor = Color.Teal
         LabelMRooms.Cursor = Cursors.Hand
-        LabelMRooms.Location = New Point(89, 171)
+        LabelMRooms.Font = New Font("Microsoft Sans Serif", 19.8000011F, FontStyle.Bold)
+        LabelMRooms.ForeColor = Color.White
+        LabelMRooms.Location = New Point(24, 102)
         LabelMRooms.Margin = New Padding(6, 0, 6, 0)
         LabelMRooms.Name = "LabelMRooms"
-        LabelMRooms.Size = New Size(213, 32)
+        LabelMRooms.Size = New Size(269, 39)
         LabelMRooms.TabIndex = 1
         LabelMRooms.Text = "Manage Rooms"
         ' 
         ' LabelMClients
         ' 
         LabelMClients.AutoSize = True
+        LabelMClients.BackColor = Color.Teal
         LabelMClients.Cursor = Cursors.Hand
-        LabelMClients.Location = New Point(89, 65)
+        LabelMClients.Font = New Font("Microsoft Sans Serif", 19.8000011F, FontStyle.Bold)
+        LabelMClients.ForeColor = Color.White
+        LabelMClients.Location = New Point(24, 9)
         LabelMClients.Margin = New Padding(6, 0, 6, 0)
         LabelMClients.Name = "LabelMClients"
-        LabelMClients.Size = New Size(212, 32)
+        LabelMClients.Size = New Size(268, 39)
         LabelMClients.TabIndex = 0
         LabelMClients.Text = "Manage Clients"
         ' 
         ' MainForm
         ' 
-        AutoScaleDimensions = New SizeF(16.0F, 31.0F)
+        AutoScaleDimensions = New SizeF(16F, 31F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.White
-        ClientSize = New Size(1924, 848)
+        BackColor = Color.Brown
+        BackgroundImage = My.Resources.Resources.djd
+        BackgroundImageLayout = ImageLayout.Stretch
+        ClientSize = New Size(1422, 777)
+        Controls.Add(LabelMReservations)
         Controls.Add(Panel1)
+        Controls.Add(LabelMRooms)
+        Controls.Add(LabelMClients)
+        Cursor = Cursors.Hand
         Font = New Font("Microsoft Sans Serif", 16.2F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
-        ForeColor = Color.White
+        ForeColor = Color.GreenYellow
         Margin = New Padding(6, 5, 6, 5)
         Name = "MainForm"
         StartPosition = FormStartPosition.CenterScreen
         Text = "MainForm"
         WindowState = FormWindowState.Maximized
-        Panel1.ResumeLayout(False)
-        Panel1.PerformLayout()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Panel1 As Panel

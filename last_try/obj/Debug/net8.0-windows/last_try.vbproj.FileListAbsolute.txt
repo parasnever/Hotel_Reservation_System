@@ -69,3 +69,4 @@ C:\Users\zoeek\Desktop\last_try\obj\Debug\net8.0-windows\refint\last_try.dll
 C:\Users\zoeek\Desktop\last_try\obj\Debug\net8.0-windows\last_try.pdb
 C:\Users\zoeek\Desktop\last_try\obj\Debug\net8.0-windows\last_try.genruntimeconfig.cache
 C:\Users\zoeek\Desktop\last_try\obj\Debug\net8.0-windows\ref\last_try.dll
+C:\Users\zoeek\Desktop\last_try\obj\Debug\net8.0-windows\last_try.Resources.resources
