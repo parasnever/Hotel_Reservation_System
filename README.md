@@ -56,6 +56,6 @@ Screenshots
 Technologies Used:
 
 
-C# and Windows Forms for the user interface.
-SQLite or MySQL for the backend database (if applicable).
+Visual basic and Windows Forms for the user interface.
+ MySQL for the backend database (if applicable).
 Visual Studio for development.
