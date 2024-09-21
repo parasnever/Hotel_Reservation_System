@@ -31,18 +31,31 @@ Screenshots
 
 
 
-Login Page
-![Screenshot (10)](https://github.com/user-attachments/assets/60a9d6f9-a8ad-4aaf-91f3-9c8a97127a9a)
-![Screenshot (9)](https://github.com/user-attachments/assets/8fcac6ec-9809-44ff-8782-63f10d979b57)
-![Screenshot (8)](https://github.com/user-attachments/assets/64488f9e-9aff-4cc5-b2a0-86b898c9f909)
-![Screenshot (7)](https://github.com/user-attachments/assets/fbe3bd84-4505-4158-9b6e-f1216fcf49f6)
+<-----------------------Login Page------------------------------>
+
+
 ![Screenshot 2024-09-20 192025](https://github.com/user-attachments/assets/246997d8-0bcd-494d-82ff-03084a40aa1d)
 
-Manage Clients
+<-----------------------Manage mainForm------------------------------>
 
 
-Manage Rooms
-Technologies Used
+![Screenshot (7)](https://github.com/user-attachments/assets/fbe3bd84-4505-4158-9b6e-f1216fcf49f6)
+
+
+<-----------------------Manage Clients------------------------------>
+![Screenshot (8)](https://github.com/user-attachments/assets/64488f9e-9aff-4cc5-b2a0-86b898c9f909)
+
+
+<-----------------------Manage Rooms------------------------------>
+![Screenshot (9)](https://github.com/user-attachments/assets/8fcac6ec-9809-44ff-8782-63f10d979b57)
+
+
+<-----------------------Manage Reservation------------------------------>
+![Screenshot (10)](https://github.com/user-attachments/assets/60a9d6f9-a8ad-4aaf-91f3-9c8a97127a9a)
+
+Technologies Used:
+
+
 C# and Windows Forms for the user interface.
 SQLite or MySQL for the backend database (if applicable).
 Visual Studio for development.
